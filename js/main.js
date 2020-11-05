@@ -6,8 +6,6 @@ var mySwiper = new Swiper('.swiper-container', {
         bulletActiveClass: 'project-bullets-active',
         clickable: true,
       },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      }
+      arrows:false
+  
 });

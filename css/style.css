@@ -298,7 +298,13 @@ input{
 .project-bullets-active{
     background-color: #FFBB01;
 }
-.slick-arrow{
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+  display: none;
+}
+.swiper-button-next, .swiper-button-prev{
+  display: none;
+}
+/*.slick-arrow{
     background-color: #fff;
     border-radius: 50%;
     width: 60px;
@@ -308,12 +314,12 @@ input{
     outline: none;
 }
 .swiper-button-next{
-    right: 0;
+    right: 400px;
 
 }
 .swiper-button-prev{
-   left: 0;
-}
+   left: 300px;
+}*/
 
 /*адаптив верстки*/
 /*@media(max-width: 1100px){
